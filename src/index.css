@@ -1,0 +1,73 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-items {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 1rem;
+  margin-right: 1rem;
+}
+
+.loading {
+  text-align: center;
+  font-size: 20px;
+}
+
+.error {
+  color: #ff0000;
+  font-size: 20px;
+}
+
+.cart-info {
+  text-align: center;
+  font-weight: bold;
+}
+
+.products-list {
+  list-style: none;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.products-list img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  margin: 1rem auto;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #000;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.btn {
+  margin-right: 1rem;
+}
